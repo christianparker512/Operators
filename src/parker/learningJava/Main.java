@@ -34,6 +34,9 @@ public class Main {
         result /=3; //30 /3 = 10;
         System.out.println(("30 /3 = "+ result));
 
-
+        boolean isAlien = false;
+//        if(isAlien ==false)
+        if (!isAlien)
+            System.out.println("It is not an alien");
     }
 }
