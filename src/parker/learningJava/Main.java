@@ -12,6 +12,10 @@ public class Main {
         System.out.println(result);
         result = result * 10;
         System.out.println(" 2 * 10 = " + result);
+        result = result / 5;
+        System.out.println("20/5 = " + result);
 
+        result = result % 3;
+        System.out.println(result);
     }
 }
