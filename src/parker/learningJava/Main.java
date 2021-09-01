@@ -17,5 +17,23 @@ public class Main {
 
         result = result % 3;
         System.out.println(result);
+
+        //result = result +1
+        result ++; //1 +1 = 2
+        System.out.println("1 + 1 = " + result);
+
+        result --;
+        System.out.println("2 - 1 " + result);
+
+        result += 2;
+        System.out.println("1 + 2" + result);
+
+        result *= 10;
+        System.out.println("3 * 10 = " + result);
+
+        result /=3; //30 /3 = 10;
+        System.out.println(("30 /3 = "+ result));
+
+
     }
 }
