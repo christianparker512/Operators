@@ -36,7 +36,9 @@ public class Main {
 
         boolean isAlien = false;
 //        if(isAlien ==false)
-        if (!isAlien)
+        if (!isAlien) {
             System.out.println("It is not an alien");
+            System.out.println("And I am scared of aliens");
+        }
     }
 }
