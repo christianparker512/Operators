@@ -56,8 +56,16 @@ public class Main {
 //        if(newValue = 50){
 //            System.out.println("This is an error");
 //        }
+        //Need to use two equal signs to check for value.
         if(newValue == 50){
             System.out.println("This is an true");
+        }
+        boolean isCar = false;
+        //only one equals sign is necessary when comparing booleans
+//        if(isCar = true){
+        //use the logical complement operator.
+        if(!isCar){
+            System.out.println("This isn't supposed to happen");
         }
     }
 }
