@@ -64,8 +64,18 @@ public class Main {
         //only one equals sign is necessary when comparing booleans
 //        if(isCar = true){
         //use the logical complement operator.
-        if(!isCar){
+        if(isCar){
             System.out.println("This isn't supposed to happen");
+        }
+        isCar = true;
+        boolean wasCar = isCar ? true: false;
+        if(wasCar){
+            System.out.println("wasCar is true");
+        }
+        int ageOfAbby = 20;
+        boolean isEighteenOrOver = ageOfAbby == 20 ? true : false;
+        if(isEighteenOrOver){
+            System.out.println("Happy birthday Abby!");
         }
     }
 }
